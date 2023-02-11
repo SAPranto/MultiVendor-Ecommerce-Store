@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MyCarousel = () => {
+const Carousel = () => {
   return (
     <>
     <div className=' w-full h-[380px]'>
@@ -10,4 +10,4 @@ const MyCarousel = () => {
   )
 }
 
-export default MyCarousel
+export default Carousel
