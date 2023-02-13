@@ -7,7 +7,7 @@ const SearchBar = () => {
         <button
           id="dropdown-button"
           data-dropdown-toggle="dropdown"
-          className="flex-shrink-0 z-10 inline-flex items-center shadow py-2.5 px-3 pr-20 pl-6 text font-medium text-center bg-green-800 border-green rounded-l-3xl hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
+          className="flex-shrink-0 z-10 inline-flex items-center shadow py-2.5 px-3 pr-20 pl-6 text font-medium text-center bg-green-800 border-green rounded-l-3xl hover:bg-black focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
           type="button"
         >
           Fashions
@@ -71,13 +71,13 @@ const SearchBar = () => {
           <input
             type="search"
             id="search-dropdown"
-            className="block p-2.5 w-[600px] z-20  text-gray-900 bg-gray-50 rounded-r-full border-l-2 border border-green-800 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+            className="block p-2.5 w-[30rem] lg:w-[38rem] z-20  text-gray-900 bg-gray-50 rounded-r-full border-l-2 border border-green-800 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
             placeholder="What Are You Looking For"
             required
           />
           <button
             type="submit"
-            className="flex gap-2 absolute top-0 right-0 p-2.5  font-medium bg-green-800 rounded-r-3xl border border-green-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="flex gap-2 absolute top-0 right-0 p-2.5  font-medium bg-green-800 rounded-r-3xl border border-green-800 hover:bg-green-600 focus:ring-4 focus:outline-none transition duration-300 ease-in-out transform"
           >
             <svg
               aria-hidden="true"

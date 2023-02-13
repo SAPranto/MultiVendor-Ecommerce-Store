@@ -3,9 +3,9 @@ import { IoMdArrowDropright } from "react-icons/io"
 
 const ProductNav = () => {
   return (
-    <div className="bg-green-900 h-full pb-24 pt-3 mx-3 w-80">
+    <div className="bg-green-900 h-full w-80 pb-24 pt-3 mx-3 max-w-80 max-md:hidden">
       <ul className="px-10 flex flex-col gap-2 text-lg font-semibold cursor-pointer">
-        <li classNa className="flex justify-between"me="flex justify-between">
+        <li className="flex justify-between ">
           <a href="">Fashions</a>
           <IoMdArrowDropright className="text-2xl"/>     
         </li>

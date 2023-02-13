@@ -1,25 +1,17 @@
 import React from "react";
 import "./CSS/ProductCard.css";
 
-const ProductCard = () => {
+const ProductCard = ({ src, title, discountPrice, price }) => {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-60">
-        <a href="#">
-          <img className="rounded-t-lg p-2 product-img" src="/img1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Blue T-shirt
-            </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            ৳450
-          </p>
-          <p className="mb-3 font-semi-bold text-2xl text-black dark:text-gray-400">
-            ৳500
-          </p>
+      <div className="bg-white hover:-translate-y-2 transform transition-all duration-500 cursor-pointer">
+        <div className="">
+          <img src={src} alt="" className=" max-h-[19rem] max-w-60 p-2 " />
+        </div>
+        <div className="flex flex-col px-2 pb-4">
+          <h5 className="text-black text-lg font-bold">{title}</h5>
+          <h6 className="text-gray-300 line-through">৳{discountPrice}</h6>
+          <h6 className="text-black font-bold text-xl">৳{price}</h6>
         </div>
       </div>
     </>
