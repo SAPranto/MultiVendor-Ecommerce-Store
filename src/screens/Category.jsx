@@ -1,16 +1,10 @@
 import "../App.css";
-import Header from "../components/Header.jsx";
-import Sidebar from "../components/Sidebar";
 import FilterBar from "../components/FilterBar";
 import CategoryProducts from "../components/CategoryProducts";
-import MobileNav from "../components/MobileNav";
 
 function Category() {
   return (
     <div className="">
-      <Sidebar />
-      <Header />
-      <MobileNav />
       <div className="">
         <img src="/img1.jpg" alt="" className="h-[27rem] w-full" />
       </div>

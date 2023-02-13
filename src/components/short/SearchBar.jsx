@@ -3,7 +3,7 @@ import React from "react";
 const SearchBar = () => {
   return (
     <form>
-      <div className="flex">
+      <div className="flex xl:pr-10">
         <button
           id="dropdown-button"
           data-dropdown-toggle="dropdown"

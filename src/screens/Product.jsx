@@ -1,9 +1,14 @@
-import React from 'react'
+import "../App.css";
+import SingleProduct from "../components/SingleProduct";
 
-const Product = () => {
+
+function Product() {
   return (
-    <div className=''>Product</div>
-  )
+    <div className="">
+      <SingleProduct/>
+      
+    </div>
+  );
 }
 
-export default Product
+export default Product;

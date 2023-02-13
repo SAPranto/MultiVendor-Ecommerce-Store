@@ -1,5 +1,5 @@
 import React from "react";
-import "./short/css/Header.css";
+import "./short/CSS/Header.css";
 import SearchBar from "./short/SearchBar.jsx";
 import { FaUserPlus } from "react-icons/fa";
 import { BsBoxArrowInRight, BsFillBasket2Fill } from "react-icons/bs";

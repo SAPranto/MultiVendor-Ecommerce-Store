@@ -6,7 +6,7 @@ const ProductNav = () => {
     <div className="bg-green-900 h-full w-80 pb-24 pt-3 mx-3 max-w-80 max-md:hidden">
       <ul className="px-10 flex flex-col gap-2 text-lg font-semibold cursor-pointer">
         <li className="flex justify-between ">
-          <a href="">Fashions</a>
+          <a href="/product">Fashions</a>
           <IoMdArrowDropright className="text-2xl"/>     
         </li>
         <li className="flex justify-between">

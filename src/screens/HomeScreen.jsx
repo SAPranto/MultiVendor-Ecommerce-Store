@@ -1,30 +1,26 @@
-import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import Header from "./components/Header.jsx";
-import Sidebar from "./components/Sidebar";
-import Banner from "./components/Banner";
-import ManBanner from "./components/ManBanner";
-import Divider from "./components/Divider";
-import LogoSlider from "./components/LogoSlider";
-import ImageSlider from "./components/ImageSlider";
-import SellRow from "./components/SellRow";
-import BabyRow from "./components/BabyRow";
-import ZoomImg from "./components/short/ZoomImg";
-import DividerCategory from "./components/short/DividerCategory";
-import ProductBanner from "./components/ProductBanner"
-import MobileNav from "./components/MobileNav"
-import Card from "./components/Card"
-import TradeService from "./components/TradeService";
-import Flag from "./components/Flag";
+import "../App.css";
+import Navbar from "../components/Navbar.jsx";
+import Header from "../components/Header.jsx";
+import Sidebar from "../components/Sidebar";
+import Banner from "../components/Banner";
+import ManBanner from "../components/ManBanner";
+import Divider from "../components/Divider";
+import LogoSlider from "../components/LogoSlider";
+import ImageSlider from "../components/ImageSlider";
+import SellRow from "../components/SellRow";
+import BabyRow from "../components/BabyRow";
+import ZoomImg from "../components/short/ZoomImg";
+import DividerCategory from "../components/short/DividerCategory";
+import ProductBanner from "../components/ProductBanner"
+import MobileNav from "../components/MobileNav"
+import Card from "../components/Card"
+import TradeService from "../components/TradeService";
+import Flag from "../components/Flag";
 
 
 function HomeScreen() {
   return (
     <div className="">
-      <Navbar />
-      <Header />
-      <Sidebar />
-      <MobileNav/>
       <Banner />
       <Divider title="Find Your Best Category" seeAllText="See all" />
       <LogoSlider />
