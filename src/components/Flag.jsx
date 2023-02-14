@@ -11,7 +11,7 @@ const Flag = () => {
       <FlagCard src="/Flag.svg" title="Bangladesh" />
     </div>
     <div className="mt-6 mb-2">
-        <img src="footer-banner.webp" alt="" />
+        <img src="footer-banner.webp" alt=""  className="w-full"/>
     </div>
     </>
   );

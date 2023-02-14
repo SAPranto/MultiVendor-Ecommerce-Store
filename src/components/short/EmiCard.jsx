@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const EmiCard = ({title, subTitle, qty}) => {
   return (
@@ -8,7 +9,7 @@ const EmiCard = ({title, subTitle, qty}) => {
         {subTitle}
       </p>
       <div>
-      <a href="#" className="text-cyan-800 font-semibold">{qty}</a>
+      <Link to="#" className="text-cyan-800 font-semibold">{qty}</Link>
       </div>
     </div>
   );

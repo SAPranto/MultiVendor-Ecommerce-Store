@@ -1,49 +1,50 @@
 import React from "react";
-import { IoMdArrowDropright } from "react-icons/io"
+import { IoMdArrowDropright } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const ProductNav = () => {
   return (
     <div className="bg-green-900 h-full w-80 pb-24 pt-3 mx-3 max-w-80 max-md:hidden">
       <ul className="px-10 flex flex-col gap-2 text-lg font-semibold cursor-pointer">
-        <li className="flex justify-between ">
-          <a href="/product">Fashions</a>
-          <IoMdArrowDropright className="text-2xl"/>     
+        <li className="flex justify-between">
+          <Link to="/category">Electronics</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Electronics</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Electronics</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Sports</a> 
+          <Link to="/category">Sports</Link>
         </li>
         <li className="flex justify-between">
-          <a href="">Home Apperal</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Home Apperal</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Accessories</a>
+          <Link to="/category">Accessories</Link>
         </li>
         <li className="flex justify-between">
-          <a href="">Home & Garden</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Home & Garden</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Beauty & Personal</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Beauty & Personal</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Tools & Hardware</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Tools & Hardware</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <a href="">Baby Products</a>
+          <Link to="/category">Baby categorys</Link>
         </li>
         <li className="flex justify-between">
-          <a href="">Google & Sunglasses</a>
+          <Link to="/category">Google & Sunglasses</Link>
         </li>
         <li className="flex justify-between">
-          <a href="">Food Items</a>
-          <IoMdArrowDropright className="text-2xl"/>    
+          <Link to="/category">Food Items</Link>
+          <IoMdArrowDropright className="text-2xl" />
         </li>
       </ul>
     </div>

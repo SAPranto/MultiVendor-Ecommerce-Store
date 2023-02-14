@@ -1,36 +1,36 @@
 import React from "react";
-import { IoMdArrowDropright } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Category = (props) => {
   return (
     <div className="bg-green-900 h-auto pb-10 pt-3 mx-3 w-64 ml-[0px] max-xl:hidden">
       <ul className="px-6 flex flex-col gap-2 text-lg font-semibold cursor-pointer">
         <li className="flex justify-between" me="flex justify-between">
-          <a href="">Fashions</a>
+          <Link to>Fashions</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Electronics</a>
+          <Link to className="">Electronics</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Sports</a>
+          <Link to className="">Sports</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Home Apperal</a>
+          <Link to className="">Home Apperal</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Accessories</a>
+          <Link to className="">Accessories</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Home & Garden</a>
+          <Link to className="">Home & Garden</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Beauty & Personal</a>
+          <Link to className="">Beauty & Personal</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Tools & Hardware</a>
+          <Link to className="">Tools & Hardware</Link>
         </li>
         <li className="flex justify-between">
-          <a href="" className="">Baby Products</a>
+          <Link to className="">Baby Products</Link>
         </li>
       </ul>
     </div>
