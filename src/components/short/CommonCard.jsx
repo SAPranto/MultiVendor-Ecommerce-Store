@@ -8,7 +8,7 @@ const CommonCard = (props) => {
           <img
             src={props.imgSrc}
             alt={props.imgAlt}
-            className=" max-h-[14rem] w-60 p-2 object-cover"
+            className="p-2 object-cover"
           />
         </div>
         <div className="flex flex-col px-2 gap-1">

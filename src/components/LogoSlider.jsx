@@ -7,7 +7,7 @@ const logos = [
 ];
 
 const LogoSlider = () => {
-  const logoCards = Array.from({ length: 4 }).flatMap(() =>
+  const logoCards = Array.from({ length: 5 }).flatMap(() =>
     logos.map((logo, index) => (
       <LogoCard key={index} src={logo.src} alt={logo.alt} title={logo.title} />
     ))

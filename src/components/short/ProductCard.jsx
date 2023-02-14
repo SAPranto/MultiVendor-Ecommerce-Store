@@ -3,7 +3,7 @@ import "./CSS/ProductCard.css";
 
 const ProductCard = ({ src, title, discountPrice, price }) => {
   return (
-    <>
+    <div className="">
       <div className="bg-white hover:-translate-y-2 transform transition-all duration-500 cursor-pointer">
         <div className="">
           <img src={src} alt="" className=" max-h-[19rem] max-w-60 p-2 " />
@@ -14,7 +14,7 @@ const ProductCard = ({ src, title, discountPrice, price }) => {
           <h6 className="text-black font-bold text-xl">৳{price}</h6>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
