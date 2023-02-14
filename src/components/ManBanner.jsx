@@ -8,7 +8,7 @@ const ManBanner = () => {
     <div className=''>
       <div className='container mx-auto flex my-2'>
         <Category />
-        <div className='flex gap-2 w-full justify-between'>
+        <div className='sm:flex grid grid-cols-2 gap-2 w-full justify-between'>
       <ProductCard src="/product.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
       <ProductCard src="/product.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
       <ProductCard src="/product.webp" title="Blue t-shirt" discountPrice="520" price="450"/>

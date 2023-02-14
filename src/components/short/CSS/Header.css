@@ -1,25 +1,16 @@
-.nav-logo {
-  height: 80%;
-  width: 70%;
-  vertical-align: middle;
-}
-@media not all and (min-width: 1280px) {
-  .nav-logo {
-    height: 70%;
-    width: 100%;
-  }
-}
 @media not all and (min-width: 1024px) {
   .nav-logo {
     height: 70%;
     width: 100%;
     margin-top: 4px;
+    object-fit: contain;
   }
 }
 @media (min-width: 1024px) and (max-width: 2024px) {
   .nav-logo {
-    height: 70%;
-    width: 50%;
+    height: 80%;
+    max-width: 15rem;
     margin-top: 4px;
+    object-fit: contain;
   }
 }

@@ -7,14 +7,14 @@ const images = [
 ];
 
 const ImageSlider = () => {
-  const imageCards = Array.from({ length: 4 }).flatMap(() =>
+  const imageCards = Array.from({ length: 3 }).flatMap(() =>
     images.map((image, index) => (
       <ImageCard key={index} src={image.src} />
     ))
   );
 
   return (
-    <div className='container mx-auto sm:flex gap-3 my-4 grid grid-cols-3'>
+    <div className='container mx-auto gap-3 my-4 sm:flex grid grid-cols-3'>
       {imageCards}
     </div>
   )
