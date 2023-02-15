@@ -7,7 +7,7 @@ const SideNav = () => {
 
   return (
     <>
-    {!isOpen ? (<GiHamburgerMenu className="text-3xl cursor-pointer" onClick={() => setOpen(!isOpen)}/>) : 
+    {!isOpen ? (<GiHamburgerMenu className="text-3xl cursor-pointer hover:scale-110 transition-all ease-out" onClick={() => setOpen(!isOpen)}/>) : 
     
     (
       

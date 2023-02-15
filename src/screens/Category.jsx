@@ -6,12 +6,12 @@ function Category() {
   return (
     <div className="">
       <div className="">
-        <img src="/img1.jpg" alt="" className="h-[27rem] w-full" />
+        <img src="/img1.jpg" alt="" className="h-[27rem] w-full object-cover" />
       </div>
 
       <div className="flex gap-8 bg-gray-200 pt-5">
         <FilterBar />
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8">
+        <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8">
           <CategoryProducts src='/product.webp' title='Product 1' price='1000' rating='4.5'/>
           <CategoryProducts src='/product.webp' title='Product 2' price='1000' rating='4.5'/>
           <CategoryProducts src='/product.webp' title='Product 3' price='1000' rating='4.5'/>

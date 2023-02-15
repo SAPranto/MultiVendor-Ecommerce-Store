@@ -2,10 +2,12 @@ import "../App.css";
 import SingleProduct from "../components/SingleProduct";
 
 
+
 function Product() {
   return (
     <div className="">
-      <SingleProduct/>
+      <SingleProduct />
+
       
     </div>
   );

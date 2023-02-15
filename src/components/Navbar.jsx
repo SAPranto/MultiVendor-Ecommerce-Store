@@ -5,7 +5,7 @@ import GroupButtons from './short/GroupButtons.jsx';
 const Navbar = () => {
   return (
     <>
-    <div className=" bg-green-800 h-14 pt-1 max-[767.98px]:hidden">
+    <div className=" bg-green-800 h-12 pt-1 max-[767.98px]:hidden">
       <div className="container mx-auto flex justify-between my-2">
         <div>
           <p className="text-">Hotline: +88 01311805398</p>

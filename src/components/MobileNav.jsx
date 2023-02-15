@@ -3,7 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { BsFillBasket2Fill } from "react-icons/bs";
 const MobileNav = () => {
   return (
-    <div className="bg-green-900 min-[768px]:hidden sticky top-0 z-30 px-2">
+    <div className="bg-green-900 min-[768px]:hidden sticky top-0 z-30 px-4">
       <div className="container mx-auto py-2 flex justify-between">
         <div>
           <FaBars className="cursor-pointer mt-2 text-3xl" />
