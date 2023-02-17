@@ -2,7 +2,7 @@
 ## IT Store is an online marketplace for purchasing laptops and PC accessories from multiple vendors. It provides a platform for vendors to sell their products and for customers to browse and purchase these products. This project is built using React.js and Tailwind CSS and the Vite build tool.
 
 #### IT Store Screenshot
-![Nexoy](/capture.png)
+![Nexoy](public/capture.png)
 
 ## Features
 Browse products by category
