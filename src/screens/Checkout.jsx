@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
   const countries = ["Bangladesh", "Russia", "UK"];
@@ -51,9 +52,11 @@ const Checkout = () => {
             <p className="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800">
               Checkout
             </p>
+            <Link to="/cart">
             <p className="text-base leading-normal sm:leading-4 text-gray-600">
               Home {">"} Electronics {">"} Headphones {">"} Cart {">"} Checkout
             </p>
+            </Link>
           </div>
 
           <div className="flex flex-col xl:flex-row justify-center xl:justify-between space-y-6 xl:space-y-0 xl:space-x-6 w-full">
@@ -75,7 +78,7 @@ const Checkout = () => {
             </div>
 
             <div className="p-8 bg-gray-100 flex flex-col lg:w-full xl:w-3/5">
-              <button className="border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full">
+              <button className="border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-gray-600 text-white hover:text-gray-900 flex flex-row justify-center items-center space-x-2 py-4 rounded w-full">
                 <div>
                   <svg
                     className="fill-current"
@@ -208,10 +211,12 @@ const Checkout = () => {
                 />
               </div>
 
-              <button className="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-white text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
+              <button className="mt-8 border border-transparent hover:border-gray-300 bg-gray-900 hover:bg-gray-600 text-white hover:text-gray-900 flex justify-center items-center py-4 rounded w-full">
+                <Link to="/">
                 <div>
                   <p className="text-base leading-4">Pay ৳54652</p>
                 </div>
+                </Link>
               </button>
             </div>
           </div>

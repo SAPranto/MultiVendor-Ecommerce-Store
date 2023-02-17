@@ -11,18 +11,19 @@ import {
 import { MdLocalOffer, MdOutlineDeliveryDining } from "react-icons/md";
 import { BsTruck } from "react-icons/bs";
 import { FaMoneyBillAlt, FaAmazonPay } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SingleProduct = () => {
   return (
     <div className="single pb-8">
       <div className="flex gap-2 lg:container md:mx-4 lg:mx-auto md:justify-between max-md:mx-auto max-md:container max-md:flex-col px-4">
-        <div className="text-black md:grid md:grid-cols-1 gap-2 md:mx-4 my-4 w-16 h-10 flex max-md:hidden sticky top-[100px] z-0">
+        <div className="text-black md:grid md:grid-cols-1 gap-2 md:mx-4 my-4 w-16 h-10 flex max-md:hidden md:sticky top-[100px] -z-10">
           <img src="/headphone.webp" alt="" className="object-cover" />
           <img src="/headphone2.webp" alt="" className="object-cover" />
           <img src="/headphone3.webp" alt="" className="object-cover" />
           <img src="/headphone.webp" alt="" className="object-cover" />
         </div>
-        <div className="md:pt-6 w-full xl:w-[32rem] md:w-[26rem] md:h-[25rem] sticky top-10 z-0">
+        <div className="md:pt-6 w-full xl:w-[32rem] md:w-[26rem] md:h-[25rem] md:sticky top-10 -z-10">
           <IoMdExit
             size={30}
             className="bg-black rotate-90 float-right mb-2 rounded-full p-1 max-md:hidden"
@@ -45,12 +46,16 @@ const SingleProduct = () => {
           <img src="/headphone.webp" alt="" className="object-cover" />
         </div>
         <div className="flex flex-col my-2 gap-4 md:hidden  sm:mx-auto sm:w-full">
+          <Link to="/cart">
           <button className="bg-yellow-400 rounded-full w-full py-2 text-black text-sm shadow hover:shadow-2xl hover:bg-green-400 transition-all ease-in-out">
-            Add to Cart
+            Add To Cart
           </button>
+          </Link>
+          <Link to="/checkout">
           <button className="bg-amber-500 rounded-full w-full py-2 text-black text-sm shadow hover:shadow-2xl hover:bg-green-400 transition-all ease-in-out">
             Buy Now
           </button>
+          </Link>
         </div>
         <div className="md:pt-6 pt-4 flex flex-col pl-2">
           <h2 className="text-black md:text-3xl text-2xl font-semibold">
@@ -247,7 +252,7 @@ const SingleProduct = () => {
           <AddCart />
         </div>
       </div>
-      <div className="bg-gray-200 py-6">
+      <div className="bg-gray-200 py-6 z-50">
         <SellRow />
       </div>
     </div>

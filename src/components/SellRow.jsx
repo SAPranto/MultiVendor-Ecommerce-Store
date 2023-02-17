@@ -7,7 +7,7 @@ const SellRow = () => {
       { src: '/headphone.webp', title: 'Headphone', price: '6700', rating: '4.9' },
       { src: '/mouse2.webp', title: 'Mouse', price: '10500', rating: '4.3' },
       { src: '/camera.webp', title: 'Camera', price: '51000', rating: '4.7' },
-      { src: '/laptop.webp', title: 'Laptop', price: '67500', rating: '4.5' },
+      { src: '/mouse.webp', title: 'Mouse Havit', price: '67500', rating: '4.5' },
 
     ].map((card, index) => (
       <SellCard

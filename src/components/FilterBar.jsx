@@ -181,7 +181,7 @@ export default function Example() {
         </Transition.Root>
 
         <main className="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
-          <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
+          <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6 ">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">New Arrivals</h1>
 
             <div className="flex items-center">
@@ -247,8 +247,8 @@ export default function Example() {
             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
               {/* Filters */}
               <form className="hidden lg:block">
-                <h3 className="sr-only">Categories</h3>
-                <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-sm font-medium">
+                <h3 className="sr-only ">Categories</h3>
+                <ul role="list" className="space-y-4 border-b border-gray-200 pb-6 text-lg font-medium ">
                   {subCategories.map((category) => (
                     <li key={category.name} className="text-gray-900">
                       <a href={category.href}>{category.name}</a>
@@ -261,7 +261,7 @@ export default function Example() {
                     {({ open }) => (
                       <>
                         <h3 className="-my-3 flow-root">
-                          <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
+                          <Disclosure.Button className="flex w-full items-center justify-between bg-white py-3 text-xl text-gray-400 hover:text-gray-500">
                             <span className="font-medium text-gray-900">{section.name}</span>
                             <span className="ml-6 flex items-center">
                               {open ? (

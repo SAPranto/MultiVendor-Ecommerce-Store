@@ -1,9 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const ProductCard = ({ src, title, rating, price }) => {
   return (
     <div className="w-1/2 sm:w-1/4 px-2 mb-4">
-      <div className="bg-white hover:-translate-y-2 transform transition-all duration-500 cursor-pointer">
+     <Link to="/product">
+     <div className="bg-white hover:-translate-y-2 transform transition-all duration-500 cursor-pointer">
         <img src={src} alt="" className="w-full h-[15rem] object-cover" />
         <div className="px-4 py-4 flex flex-col gap-2">
 
@@ -18,6 +19,7 @@ const ProductCard = ({ src, title, rating, price }) => {
           </div>
         </div>
       </div>
+     </Link> 
     </div>
   );
 };

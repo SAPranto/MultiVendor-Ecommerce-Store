@@ -1,8 +1,9 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const CategoryProducts = ({src, title, price, rating}) => {
   return (
     <div className=" px-2 mb-4">
+      <Link to="/product">
       <div className="bg-white hover:-translate-y-2 transform transition-all duration-500 cursor-pointer rounded shadow">
         <img src={src} alt="" className="" />
         <div className="px-4 py-4 flex flex-col gap-2">
@@ -18,6 +19,7 @@ const CategoryProducts = ({src, title, price, rating}) => {
           </div>
         </div>
       </div>
+      </Link>
     </div>
   );
 };
