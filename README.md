@@ -1,7 +1,8 @@
 # IT Store - Multivendor E-commerce Platform
 ## IT Store is an online marketplace for purchasing laptops and PC accessories from multiple vendors. It provides a platform for vendors to sell their products and for customers to browse and purchase these products. This project is built using React.js and Tailwind CSS and the Vite build tool.
 
-IT Store Screenshot
+#### IT Store Screenshot
+![Nexoy](/capture.png)
 
 ## Features
 Browse products by category
@@ -26,22 +27,8 @@ The cart page displays the products that have been added to the cart and allows 
 ## Checkout
 The checkout page displays a form for users to enter their shipping information and complete their order.
 
-### Getting Started
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/sapranto/it-store.git
-Install dependencies:
-bash
-Copy code
-cd it-store
-npm install
-Run the development server:
-bash
-Copy code
-npm run dev
-Open http://localhost:3000 to view the website in your browser.
-Contributors
-Sapranto
-License
-This project is licensed under the MIT License.
+
+### Contributors
+## Sapranto
+### License
+## This project is licensed under the MIT License.
