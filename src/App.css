@@ -4,6 +4,9 @@
 .style-border {
   clip-path: polygon(0 0, 0 95%, 85% 100%, 100% 0%, 100% 0);
 }
+.product-img {
+  max-width: 2px;
+}
 .vendor {
   clip-path: polygon(29% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
