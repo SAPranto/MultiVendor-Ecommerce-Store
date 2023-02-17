@@ -2,12 +2,18 @@ import React from 'react'
 import ImageCard from './short/ImageCard'
 
 const images = [
-  { src: '/Bata.png' },
-  { src: '/toyota.png' },
+  { src: '/sony.webp' },
+  { src: '/msi.webp' },
+  { src: '/logitech.webp' },
+  { src: '/canon.webp' },
+  { src: '/nvidia.webp' },
+  { src: '/canon.webp' },
+  { src: '/intel.webp' },
+  { src: '/msi.webp' },
 ];
 
 const ImageSlider = () => {
-  const imageCards = Array.from({ length: 3 }).flatMap(() =>
+  const imageCards = Array.from({ length: 1 }).flatMap(() =>
     images.map((image, index) => (
       <ImageCard key={index} src={image.src} />
     ))

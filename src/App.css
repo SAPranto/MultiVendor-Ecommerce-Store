@@ -37,17 +37,17 @@
   max-height: 4rem;
 }
 
-@media not all and (min-width: 1280px) {
+@media not all and (min-width: 1280px) { 
   html {
     font-size: 90%;
   }
-}
-@media not all and (min-width: 1024px) {
+ }
+@media not all and (min-width: 1024px) { 
   html {
     font-size: 72%;
   }
-}
-@media (max-width: 450px) {
+ }
+ @media (max-width: 450px) { 
   .slider-img {
     width: 100%;
     max-height: 380px;
@@ -56,9 +56,4 @@
     max-height: 112px;
     max-width: 45%;
   }
-}
-@media (max-width: 768px) {
-  .footer {
-    display: none;
-  }
-}
+ }

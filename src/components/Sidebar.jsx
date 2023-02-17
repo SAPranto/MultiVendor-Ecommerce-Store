@@ -3,14 +3,14 @@ import SideNav from "./short/SideNav";
 
 const Sidebar = () => {
   return (
-    <div className=" bg-green-800 h-12 pt-1 bg-green max-[767.98px]:hidden sticky top-0 z-30">
-      <div className="container mx-auto flex justify-between my-1">
+    <div className=" bg-gray-900 h-14 pt-1 bg-green max-[767.98px]:hidden sticky top-0 z-30">
+      <div className="container mx-auto flex justify-between my-2">
         <div className="flex gap-2">
           <SideNav/>
-          <h4 className="font-bold text-xl">Ready To Ship</h4>
+          <h4 className="font-bold text-xl">Buy Your Dream Desktop</h4>
         </div>
         <div>
-          <h4 className="font-semi-bold">Get the App English-USD</h4>
+          <h4 className="font-semibold">Delivery All Over Bangladesh</h4>
         </div>
       </div>
     </div>

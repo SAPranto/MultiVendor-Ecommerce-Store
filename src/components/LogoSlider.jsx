@@ -2,12 +2,19 @@ import React from "react";
 import LogoCard from "./short/LogoCard";
 
 const logos = [
-  { src: "/img.svg", alt: "", title: "Fashions" },
-  { src: "/img.png", alt: "", title: "Fashions" },
+  { src: "/headphone.svg", alt: "", title: "Headphone" },
+  { src: "/laptop.svg", alt: "", title: "Laptop" },
+  { src: "/mobile.svg", alt: "", title: "Mobile" },
+  { src: "/monitor.svg", alt: "", title: "Monitor" },
+  { src: "/ram.svg", alt: "", title: "Ram" },
+  { src: "/gpu.svg", alt: "", title: "Gpu" },
+  { src: "/processor.svg", alt: "", title: "Processor" },
+  { src: "/camera.svg", alt: "", title: "Camera" },
+  { src: "/mouse.svg", alt: "", title: "Mouse" },
 ];
 
 const LogoSlider = () => {
-  const logoCards = Array.from({ length: 4 }).flatMap(() =>
+  const logoCards = Array.from({ length: 1 }).flatMap(() =>
     logos.map((logo, index) => (
       <LogoCard key={index} src={logo.src} alt={logo.alt} title={logo.title} />
     ))

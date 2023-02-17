@@ -4,46 +4,46 @@ import { Link } from "react-router-dom";
 
 const ProductNav = () => {
   return (
-    <div className="bg-green-900 h-full w-80 pb-24 pt-3 mx-3 max-w-80 max-md:hidden">
-      <ul className="px-6 flex flex-col gap-2 xl:text-xl font-semibold cursor-pointer">
+    <div className="bg-gray-700 h-full w-80 pb-24 pt-3 mx-3 max-w-80 max-md:hidden">
+      <ul className="px-6 flex flex-col gap-2 lg:text-xl font-semibold cursor-pointer">
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Electronics</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Headphones</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Electronics</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Mobiles</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Sports</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Keyboards</Link>
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Home Apperal</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">GPU</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Accessories</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">CPU</Link>
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Home & Garden</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Mouse</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Beauty & Personal</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Motherboard</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Tools & Hardware</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">WebCam</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Baby categorys</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">Monitor</Link>
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Google & Sunglasses</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">DSLR Camera</Link>
         </li>
         <li className="flex justify-between">
-          <Link to="/category" className="hover:text-orange-500 hover:translate-x-2 hover:border-l-4 border-orange-500 pl-2 hover:rounded transition ease-in-out">Food Items</Link>
+          <Link to="/category" className="hover:text-sky-300 hover:translate-x-2 hover:border-l-4 border-sky-300 pl-2 hover:rounded transition ease-in-out">RAM</Link>
           <IoMdArrowDropright className="text-2xl" />
         </li>
       </ul>
