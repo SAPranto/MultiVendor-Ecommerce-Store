@@ -4,28 +4,32 @@ import ManBanner from "../components/ManBanner";
 import Divider from "../components/Divider";
 import LogoSlider from "../components/LogoSlider";
 import ImageSlider from "../components/ImageSlider";
-import SellRow from "../components/SellRow";
 import DividerCategory from "../components/short/DividerCategory";
+import ProductCard from '../components/short/ProductCard'
+import Category from '../components/short/Category'
 
 
 
 function HomeScreen() {
   return (
-    <div className="pb-2 bg-gray-200">
+    <div className="pb bg-gray-200">
       <Banner />
       <Divider title="Find Your Best Category" seeAllText="See all" />
       <LogoSlider />
-      <div className="">
-        <Divider title="Best Selling Products" seeAllText="See all" />
-        <SellRow />
         <Divider title="Search By Brands" seeAllText="See all" />
-        <ImageSlider />
-        <DividerCategory title="Mans Fashion"/>
+        <DividerCategory title="Highest Selling Products"/>
         <ManBanner/>
-        <DividerCategory title="Womans Fashion"/>
-        <ManBanner />
-        <Divider title="Trending Watch" seeAllText="See all" />
-      </div>
+        <ImageSlider />
+        <DividerCategory title="New Arrivals"/>
+        <div className='container mx-auto flex my-2'>
+        <Category />
+        <div className='sm:flex grid grid-cols-2 gap-2 w-full justify-between'>
+      <ProductCard src="/headphone.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
+      <ProductCard src="/mouse3.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
+      <ProductCard src="/camera.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
+      <ProductCard src="/mouse.webp" title="Blue t-shirt" discountPrice="520" price="450"/>
+        </div>
+      </div> 
     </div>
   );
 }

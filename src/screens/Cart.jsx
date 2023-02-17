@@ -11,7 +11,7 @@ const Cart = () => {
             height="14"
             viewBox="0 0 14 14"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/1000/svg"
           >
             <path
               d="M2.91681 7H11.0835"
@@ -66,7 +66,7 @@ const Cart = () => {
               Total
             </h3>
           </div>
-          <div className="flex items-center hover:bg-gray-300 -mx-8 px-6 py-5 bg-gray-200">
+          <div className="flex items-center hover:bg-gray-200 -mx-8 px-6 py-5 bg-gray-100">
             <div className="flex w-2/5">
               {" "}
               {/* product */}
@@ -114,7 +114,7 @@ const Cart = () => {
               ৳400.00
             </span>
           </div>
-          <div className="flex items-center hover:bg-gray-300 -mx-8 px-6 py-5 bg-gray-200">
+          <div className="flex items-center hover:bg-gray-200 -mx-8 px-6 py-5 bg-gray-100">
             <div className="flex w-2/5">
               {" "}
               {/* product */}
@@ -162,7 +162,7 @@ const Cart = () => {
               ৳400.00
             </span>
           </div>
-          <div className="flex items-center hover:bg-gray-300 -mx-8 px-6 py-5 bg-gray-200">
+          <div className="flex items-center hover:bg-gray-200 -mx-8 px-6 py-5 bg-gray-100">
             <div className="flex w-2/5">
               {" "}
               {/* product */}
@@ -252,7 +252,7 @@ const Cart = () => {
               type="text"
               id="promo"
               placeholder="Enter your code"
-              className="p-2 text-sm w-full bg-gray-200 text-black"
+              className="p-2 text-sm w-full bg-gray-100 text-black"
             />
           </div>
           <button className="bg-red-500 hover:bg-red-600 px-5 py-2 text-sm text-white uppercase">

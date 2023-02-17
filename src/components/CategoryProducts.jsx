@@ -13,8 +13,8 @@ const CategoryProducts = ({src, title, price, rating}) => {
             <p className="text-black">({rating} Rating)</p>
           </span>
           <div className="flex justify-between gap-4">
-            <button className="bg-black w-24 pt-2 pb-2 text-sm font-bold rounded hover:bg-red-500 transition duration-300 ease-in-out transform">Buy Now</button>
-            <button className="bg-green-800 w-20 text-xs font-bold rounded hover:bg-red-500 transition duration-300 ease-in-out transform">Add To Cart</button>
+            <button className="bg-red-700 w-24 pt-2 pb-2 text-sm font-bold rounded hover:bg-red-500 transition duration-300 ease-in-out transform">Buy Now</button>
+            <button className="bg-blue-700 w-20 text-xs font-bold rounded hover:bg-red-500 transition duration-300 ease-in-out transform">Add To Cart</button>
           </div>
         </div>
       </div>

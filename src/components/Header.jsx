@@ -3,6 +3,7 @@ import "./short/CSS/Header.css";
 import SearchBar from "./short/SearchBar.jsx";
 import { FaUserPlus } from "react-icons/fa";
 import { BsBoxArrowInRight, BsFillBasket2Fill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <div className=" bg-gray-800 h-20 pt-5 max-[767.98px]:hidden">
         <div className="container flex justify-between mx-auto gap-4">
           <div>
-            <h1 className="cursor-pointer text-4xl font-bold">NeXoy</h1>
+            <Link to="/" className="cursor-pointer text-4xl font-bold">NeXoy</Link>
           </div>
           <div>
             <SearchBar></SearchBar>
