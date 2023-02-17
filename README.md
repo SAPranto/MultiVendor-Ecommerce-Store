@@ -4,11 +4,11 @@
 #### IT Store Screenshot
 ![Nexoy](public/capture.PNG)
 
-Live Link (HomePage) - https://it-store-rnqtsphjf-sapranto.vercel.app/
-Live Link (Category) - https://it-store-rnqtsphjf-sapranto.vercel.app/category
-Live Link (Product) - https://it-store-rnqtsphjf-sapranto.vercel.app/product
-Live Link (Checkout) - https://it-store-rnqtsphjf-sapranto.vercel.app/checkout
-Live Link (Cart) - https://it-store-rnqtsphjf-sapranto.vercel.app/cart
+Live Link (HomePage) - https://it-store-rnqtsphjf-sapranto.vercel.app/   
+Live Link (Category) - https://it-store-rnqtsphjf-sapranto.vercel.app/category   
+Live Link (Product) - https://it-store-rnqtsphjf-sapranto.vercel.app/product  
+Live Link (Checkout) - https://it-store-rnqtsphjf-sapranto.vercel.app/checkout  
+Live Link (Cart) - https://it-store-rnqtsphjf-sapranto.vercel.app/cart  
 
 ## Features
 Browse products by category
